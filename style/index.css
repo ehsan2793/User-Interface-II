@@ -1,1 +1,61 @@
 /* Add CSS styling here */
+*{
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header {
+    background-color:lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color:lightgray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.top-section{
+display: flex;
+margin:10px 0;
+flex-direction: row;
+justify-content: center;
+}
+.top-text{
+    padding: 20px;
+    width: 50%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.pictures {
+    text-align: center;
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightyellow;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 4px 8px;
+    margin: 0 2px;
+    transition: 0.3s;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+   border: 2px solid white;
+   margin-left: 10px;
+}
+button:hover a {
+    color: white;
+}
+img {
+    border-radius: 20px;
+}
