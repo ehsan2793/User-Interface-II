@@ -52,7 +52,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	padding: 0 30%;
+	padding: 0 25%;
 	flex-wrap: wrap;
 }
 .pictures {
@@ -83,6 +83,11 @@ img {
 	border-radius: 10%;
 }
 
+@media screen and (min-width: 1700px) {
+	.row {
+		padding: 0 30%;
+	}
+}
 @media screen and (max-width: 800px) {
 	body {
 		max-width: 100%;
