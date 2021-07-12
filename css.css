@@ -249,3 +249,10 @@ footer div {
 footer .ME {
 	background-color: yellow;
 }
+
+@media (max-width: 800px){ 
+	.pictures {
+		margin:0 2%;
+	}
+}
+	
