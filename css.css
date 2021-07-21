@@ -1,0 +1,258 @@
+/** @format */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+
+	max-width: 100%;
+	text-decoration: none;
+}
+/* General Styles that apply to any website */
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 2rem;
+	line-height: 1.6;
+	word-spacing: 0.2rem;
+	font-family: "Shadows Into Light", cursive;
+}
+p {
+	font-family: "Marck Script", cursive;
+	font-size: 3rem;
+}
+h1 {
+	font-size: 4rem;
+}
+section {
+	padding: 4% 0;
+	width: 90%;
+	margin: 0 auto;
+}
+header {
+	background-color: lightblue;
+	padding: 10px;
+}
+/* header */
+header nav {
+	display: flex;
+	background-color: rgb(209, 200, 71);
+	justify-content: flex-start;
+
+	padding: 20px opx;
+}
+header nav a {
+	margin: 5px;
+	padding: 4px 0px;
+	width: 5%;
+	text-align: center;
+	border-radius: 10px;
+	color: lightcyan;
+}
+.home {
+	background-color: black;
+}
+.about {
+	background-color: rgb(67, 206, 12);
+}
+.contact {
+	background-color: rgb(255, 72, 0);
+}
+.project {
+	background-color: rgb(124, 28, 128);
+}
+/* middle of page section */
+.top {
+	display: flex;
+
+	height: 440px;
+}
+.top img {
+	width: 50%;
+	border-radius: 50%;
+}
+.top img .text {
+	width: 50%;
+}
+.picture img {
+	border-radius: 50px;
+}
+
+.text {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.text div a {
+	background-color: rgb(255, 60, 0);
+	color: linen;
+	border-radius: 10px;
+	width: 20px;
+	height: 10px;
+}
+.text p {
+	margin: 0 40px;
+}
+.sixp {
+	width: 75%;
+	padding: 10px;
+}
+.npc {
+	display: flex;
+	flex-flow: row-reverse wrap;
+
+	justify-content: center;
+}
+.item {
+	border: 5px rgb(0, 0, 0) solid;
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
+footer h3,
+footer div {
+	background-color: turquoise;
+}
+footer .ME {
+	background-color: yellow;
+}
+
+@media (max-width: 800px){ 
+	.pictures {
+		margin:0 2%;
+	}
+}
+	
